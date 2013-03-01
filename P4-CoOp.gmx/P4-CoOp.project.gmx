@@ -16,9 +16,11 @@
     <object>objects\Player1_Obj</object>
     <object>objects\Wall_Obj</object>
     <object>objects\Floor_Obj</object>
+    <object>objects\Clock_Obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
