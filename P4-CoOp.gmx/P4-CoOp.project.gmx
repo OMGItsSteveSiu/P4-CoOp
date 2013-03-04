@@ -6,32 +6,36 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Player1_Spr</sprite>
-    <sprite>sprites\Wall_Spr</sprite>
-    <sprite>sprites\Floor_Spr</sprite>
-    <sprite>sprites\Ladder_Spr</sprite>
     <sprite>sprites\Collect_Spr</sprite>
+    <sprite>sprites\Floor_Spr</sprite>
     <sprite>sprites\Ghost_Spr</sprite>
+    <sprite>sprites\Ladder_Spr</sprite>
+    <sprite>sprites\Player1_Spr</sprite>
     <sprite>sprites\TriKey_Spr</sprite>
+    <sprite>sprites\Wall_Spr</sprite>
+    <sprite>sprites\DiaKey_Spr</sprite>
+    <sprite>sprites\CirKey_Spr</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\Player1_Obj</object>
-    <object>objects\Wall_Obj</object>
-    <object>objects\Floor_Obj</object>
     <object>objects\Clock_Obj</object>
-    <object>objects\Ladder_Obj</object>
     <object>objects\Collect_Obj</object>
+    <object>objects\Floor_Obj</object>
     <object>objects\Ghost10_Obj</object>
-    <object>objects\Ghost9_Obj</object>
-    <object>objects\Ghost8_Obj</object>
-    <object>objects\Ghost7_Obj</object>
-    <object>objects\Ghost6_Obj</object>
-    <object>objects\Ghost5_Obj</object>
-    <object>objects\Ghost4_Obj</object>
-    <object>objects\Ghost3_Obj</object>
     <object>objects\Ghost2_Obj</object>
+    <object>objects\Ghost3_Obj</object>
+    <object>objects\Ghost4_Obj</object>
+    <object>objects\Ghost5_Obj</object>
+    <object>objects\Ghost6_Obj</object>
+    <object>objects\Ghost7_Obj</object>
+    <object>objects\Ghost8_Obj</object>
+    <object>objects\Ghost9_Obj</object>
+    <object>objects\Ladder_Obj</object>
+    <object>objects\Player1_Obj</object>
+    <object>objects\TriKey_Obj</object>
+    <object>objects\Wall_Obj</object>
+    <object>objects\DiaKey_Obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
