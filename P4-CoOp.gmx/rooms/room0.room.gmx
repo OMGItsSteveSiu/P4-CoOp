@@ -6,7 +6,7 @@
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>20</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
@@ -512,14 +512,14 @@
     <instance objName="Ghost8_Obj" x="96" y="-96" name="inst_B45F95BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ghost7_Obj" x="128" y="-96" name="inst_A5EF3354" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ghost6_Obj" x="160" y="-96" name="inst_1C3B9289" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ghost5_Obj" x="192" y="-96" name="inst_950FF9C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ghost4_Obj" x="192" y="-96" name="inst_6BCEE52D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ghost4_Obj" x="224" y="-96" name="inst_AD5129DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ghost3_Obj" x="256" y="-96" name="inst_B74A21A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ghost2_Obj" x="256" y="-96" name="inst_620834A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ghost2_Obj" x="288" y="-96" name="inst_5285DAF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ghost2_Obj" x="1536" y="576" name="inst_F99CA001" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ghost2_Obj" x="-217" y="451" name="inst_5CF26791" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DiaKey_Obj" x="640" y="256" name="inst_2A18D7CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TriKey_Obj" x="64" y="256" name="inst_0A31B97F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="CirKey_Obj" x="832" y="416" name="inst_9B6C661B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ghost5_Obj" x="192" y="-96" name="inst_3B0A1029" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ghost3_Obj" x="256" y="-96" name="inst_4AAE8CD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ghost3_Obj" x="832" y="-160" name="inst_05C88515" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -25,8 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.Lives = 10;
-alarm[0] = 600;
+            <string>global.gameTime = 250
+global.Lives = 10;
+alarm[0] = global.gameTime;
 global.timeRem = alarm[0];
 </string>
           </argument>
@@ -53,9 +54,11 @@ global.timeRem = alarm[0];
             <string>if (global.Lives &gt; 1)
 {
     global.Lives --;
-    alarm[0] = 600;
+    alarm[0] = global.gameTime;
     Player1_Obj.x = 64;
     Player1_Obj.y = 32;
+    Collect_Obj.visible = 1;
+    global.collectibles = 0;
 }
 else
 {
@@ -84,6 +87,10 @@ else
           <argument>
             <kind>1</kind>
             <string>global.timeRem = alarm[0];
+if(global.collectibles == 24)
+{
+    room_goto(room2);
+}
 </string>
           </argument>
         </arguments>
@@ -108,6 +115,7 @@ else
             <kind>1</kind>
             <string>draw_text(50,30,"Time Remaining: " + string(global.timeRem));
 draw_text(50,50,"Lives: " + string(global.Lives));
+draw_text(50,70,"Collected: " + string(global.collectibles));
 </string>
           </argument>
         </arguments>

@@ -15,14 +15,19 @@
     <sprite>sprites\Wall_Spr</sprite>
     <sprite>sprites\DiaKey_Spr</sprite>
     <sprite>sprites\CirKey_Spr</sprite>
+    <sprite>sprites\TryAgain_Spr</sprite>
+    <sprite>sprites\PlayAgain_Spr</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\GhostRecAndPlay_Scr.gml</script>
+    <script>scripts\InitGhost_Scr.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\Clock_Obj</object>
     <object>objects\Collect_Obj</object>
     <object>objects\Floor_Obj</object>
-    <object>objects\Ghost10_Obj</object>
     <object>objects\Ghost2_Obj</object>
     <object>objects\Ghost3_Obj</object>
     <object>objects\Ghost4_Obj</object>
@@ -31,15 +36,20 @@
     <object>objects\Ghost7_Obj</object>
     <object>objects\Ghost8_Obj</object>
     <object>objects\Ghost9_Obj</object>
+    <object>objects\Ghost10_Obj</object>
     <object>objects\Ladder_Obj</object>
     <object>objects\Player1_Obj</object>
     <object>objects\TriKey_Obj</object>
     <object>objects\Wall_Obj</object>
     <object>objects\DiaKey_Obj</object>
+    <object>objects\CirKey_Obj</object>
+    <object>objects\TryAgain_Obj</object>
+    <object>objects\PlayAgain_Obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
     <room>rooms\room1</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
