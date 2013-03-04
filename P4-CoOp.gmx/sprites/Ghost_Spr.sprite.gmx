@@ -2,9 +2,9 @@
 <sprite>
   <xorig>0</xorig>
   <yorigin>0</yorigin>
-  <colkind>0</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>-1</sepmasks>
+  <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
   <bbox_right>15</bbox_right>
@@ -17,6 +17,6 @@
   <width>16</width>
   <height>32</height>
   <frames>
-    <frame index="0">images\Wall_Spr_0.png</frame>
+    <frame index="0">images\Ghost_Spr_0.png</frame>
   </frames>
 </sprite>

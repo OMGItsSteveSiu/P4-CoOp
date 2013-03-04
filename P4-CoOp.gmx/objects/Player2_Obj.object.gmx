@@ -49,11 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ghost = 0;
-jumping = 1;
+            <string>jumping = 1;
 climbing = 0;
-self.x = 64;
-self.y = 32;
 </string>
           </argument>
         </arguments>
