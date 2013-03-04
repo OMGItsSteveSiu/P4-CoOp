@@ -53,12 +53,30 @@ global.timeRem = alarm[0];
             <kind>1</kind>
             <string>if (global.Lives &gt; 1)
 {
+    //Update lives, reset life time and player position
     global.Lives --;
     alarm[0] = global.gameTime;
     Player1_Obj.x = 64;
     Player1_Obj.y = 32;
+    
+    //Reset Visibility
     Collect_Obj.visible = 1;
+    TriKey_Obj.visible = 1;
+    DiaKey_Obj.visible = 1;
+    CirKey_Obj.visible = 1;
+
+    //Reset Door positions
+    TriDoor_Obj.x = 896;
+    TriDoor_Obj.y = 0;
+    DiaDoor_Obj.x = 672;
+    DiaDoor_Obj.y = 0;
+    CirDoor_Obj.x = 192;
+    CirDoor_Obj.y = 800;
+    
     global.collectibles = 0;
+    global.hasTri = 0;
+    global.hasDia = 0;
+    global.hasCir = 0;
 }
 else
 {
