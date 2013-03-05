@@ -1,0 +1,6 @@
+Collect All Tokens (Items which say Deja Vu)
+Grab the Keys to open corresponding doors (Circle, Triangle, Diamond)
+
+When you hear the warning sound, your life is almost up. Get ready to run through the game again!
+
+Use arrowkeys to move

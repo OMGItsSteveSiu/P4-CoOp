@@ -29,6 +29,7 @@
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }
@@ -38,6 +39,7 @@ if(place_meeting(x,y, Ghost2_Obj))
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }
@@ -47,6 +49,7 @@ if(place_meeting(x,y, Ghost3_Obj))
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }
@@ -56,6 +59,7 @@ if(place_meeting(x,y, Ghost4_Obj))
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }
@@ -65,6 +69,7 @@ if(place_meeting(x,y, Ghost5_Obj))
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }
@@ -74,6 +79,7 @@ if(place_meeting(x,y, Ghost6_Obj))
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }
@@ -83,6 +89,7 @@ if(place_meeting(x,y, Ghost7_Obj))
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }
@@ -92,6 +99,7 @@ if(place_meeting(x,y, Ghost8_Obj))
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }
@@ -101,6 +109,7 @@ if(place_meeting(x,y, Ghost9_Obj))
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }
@@ -110,6 +119,7 @@ if(place_meeting(x,y, Ghost10_Obj))
 {
     if(visible)
     {
+        audio_play_sound(TokenGet_Snd,1,false);
         visible = 0;
         global.collectibles++;
     }

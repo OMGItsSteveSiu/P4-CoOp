@@ -8,7 +8,7 @@
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
   <bbox_right>31</bbox_right>
-  <bbox_top>0</bbox_top>
+  <bbox_top>1</bbox_top>
   <bbox_bottom>31</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -18,5 +18,28 @@
   <height>32</height>
   <frames>
     <frame index="0">images\TriKey_Spr_0.png</frame>
+    <frame index="1">images\TriKey_Spr_1.png</frame>
+    <frame index="2">images\TriKey_Spr_2.png</frame>
+    <frame index="3">images\TriKey_Spr_3.png</frame>
+    <frame index="4">images\TriKey_Spr_4.png</frame>
+    <frame index="5">images\TriKey_Spr_5.png</frame>
+    <frame index="6">images\TriKey_Spr_6.png</frame>
+    <frame index="7">images\TriKey_Spr_7.png</frame>
+    <frame index="8">images\TriKey_Spr_8.png</frame>
+    <frame index="9">images\TriKey_Spr_9.png</frame>
+    <frame index="10">images\TriKey_Spr_10.png</frame>
+    <frame index="11">images\TriKey_Spr_11.png</frame>
+    <frame index="12">images\TriKey_Spr_12.png</frame>
+    <frame index="13">images\TriKey_Spr_13.png</frame>
+    <frame index="14">images\TriKey_Spr_14.png</frame>
+    <frame index="15">images\TriKey_Spr_15.png</frame>
+    <frame index="16">images\TriKey_Spr_16.png</frame>
+    <frame index="17">images\TriKey_Spr_17.png</frame>
+    <frame index="18">images\TriKey_Spr_18.png</frame>
+    <frame index="19">images\TriKey_Spr_19.png</frame>
+    <frame index="20">images\TriKey_Spr_20.png</frame>
+    <frame index="21">images\TriKey_Spr_21.png</frame>
+    <frame index="22">images\TriKey_Spr_22.png</frame>
+    <frame index="23">images\TriKey_Spr_23.png</frame>
   </frames>
 </sprite>

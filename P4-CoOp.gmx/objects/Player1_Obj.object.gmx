@@ -183,6 +183,7 @@ else
     {
         if(jumping == 0)
         {
+            audio_play_sound(Jump_Snd,1,false);
             jumping = 1;
             vspeed = -12;
         }

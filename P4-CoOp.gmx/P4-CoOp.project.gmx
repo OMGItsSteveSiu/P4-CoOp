@@ -4,8 +4,18 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\DejaVu_Muz</sound>
+    <sound>sound\Jump_Snd</sound>
+    <sound>sound\TokenGet_Snd</sound>
+    <sound>sound\KeyGet_Snd</sound>
+    <sound>sound\Warning_Snd</sound>
+  </sounds>
   <sprites name="sprites">
+    <sprite>sprites\ArrowDown_Spr</sprite>
+    <sprite>sprites\ArrowLeft_Spr</sprite>
+    <sprite>sprites\ArrowRight_Spr</sprite>
+    <sprite>sprites\ArrowUp_Spr</sprite>
     <sprite>sprites\CirDoor_Spr</sprite>
     <sprite>sprites\CirKey_Spr</sprite>
     <sprite>sprites\Collect_Spr</sprite>
@@ -13,7 +23,9 @@
     <sprite>sprites\DiaKey_Spr</sprite>
     <sprite>sprites\Floor_Spr</sprite>
     <sprite>sprites\Ghost_Spr</sprite>
+    <sprite>sprites\Instructions_Spr</sprite>
     <sprite>sprites\Ladder_Spr</sprite>
+    <sprite>sprites\Play_Spr</sprite>
     <sprite>sprites\PlayAgain_Spr</sprite>
     <sprite>sprites\Player1_Spr</sprite>
     <sprite>sprites\TriDoor_Spr</sprite>
@@ -25,19 +37,30 @@
   </sprites>
   <backgrounds name="background">
     <background>background\Matrix_Bg</background>
+    <background>background\StartScreen_Bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\GhostRecAndPlay_Scr.gml</script>
     <script>scripts\InitGhost_Scr.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\FreshBot_Fnt</font>
+  </fonts>
   <objects name="objects">
+    <object>objects\ArrowDown_Obj</object>
+    <object>objects\ArrowLeft_Obj</object>
+    <object>objects\ArrowRight_Obj</object>
+    <object>objects\ArrowUp_Obj</object>
     <object>objects\CirDoor_Obj</object>
+    <object>objects\CirDoorIns_Obj</object>
     <object>objects\CirKey_Obj</object>
     <object>objects\Clock_Obj</object>
     <object>objects\Collect_Obj</object>
     <object>objects\DiaDoor_Obj</object>
+    <object>objects\DiaDoorIns_Obj</object>
     <object>objects\DiaKey_Obj</object>
+    <object>objects\FinalScore_Obj</object>
     <object>objects\Floor_Obj</object>
     <object>objects\Ghost2_Obj</object>
     <object>objects\Ghost3_Obj</object>
@@ -48,17 +71,26 @@
     <object>objects\Ghost8_Obj</object>
     <object>objects\Ghost9_Obj</object>
     <object>objects\Ghost10_Obj</object>
+    <object>objects\Instructions_Obj</object>
     <object>objects\Ladder_Obj</object>
+    <object>objects\Music_Obj</object>
+    <object>objects\Play_Obj</object>
     <object>objects\PlayAgain_Obj</object>
     <object>objects\Player1_Obj</object>
     <object>objects\TriDoor_Obj</object>
+    <object>objects\TriDoorIns_Obj</object>
     <object>objects\TriKey_Obj</object>
     <object>objects\TryAgain_Obj</object>
     <object>objects\Wall_Obj</object>
     <object>objects\YouFail_Obj</object>
     <object>objects\YouWin_Obj</object>
+    <object>objects\StartScreen_System</object>
+    <object>objects\CirKeyIns_Obj</object>
+    <object>objects\TriKeyIns_Obj</object>
+    <object>objects\DiaKeyIns_Obj</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room0</room>
     <room>rooms\room1</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>

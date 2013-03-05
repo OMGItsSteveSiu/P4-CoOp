@@ -6,10 +6,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>31</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>31</bbox_bottom>
+  <bbox_left>2</bbox_left>
+  <bbox_right>30</bbox_right>
+  <bbox_top>6</bbox_top>
+  <bbox_bottom>26</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroup>0</TextureGroup>
@@ -18,5 +18,52 @@
   <height>32</height>
   <frames>
     <frame index="0">images\Collect_Spr_0.png</frame>
+    <frame index="1">images\Collect_Spr_1.png</frame>
+    <frame index="2">images\Collect_Spr_2.png</frame>
+    <frame index="3">images\Collect_Spr_3.png</frame>
+    <frame index="4">images\Collect_Spr_4.png</frame>
+    <frame index="5">images\Collect_Spr_5.png</frame>
+    <frame index="6">images\Collect_Spr_6.png</frame>
+    <frame index="7">images\Collect_Spr_7.png</frame>
+    <frame index="8">images\Collect_Spr_8.png</frame>
+    <frame index="9">images\Collect_Spr_9.png</frame>
+    <frame index="10">images\Collect_Spr_10.png</frame>
+    <frame index="11">images\Collect_Spr_11.png</frame>
+    <frame index="12">images\Collect_Spr_12.png</frame>
+    <frame index="13">images\Collect_Spr_13.png</frame>
+    <frame index="14">images\Collect_Spr_14.png</frame>
+    <frame index="15">images\Collect_Spr_15.png</frame>
+    <frame index="16">images\Collect_Spr_16.png</frame>
+    <frame index="17">images\Collect_Spr_17.png</frame>
+    <frame index="18">images\Collect_Spr_18.png</frame>
+    <frame index="19">images\Collect_Spr_19.png</frame>
+    <frame index="20">images\Collect_Spr_20.png</frame>
+    <frame index="21">images\Collect_Spr_21.png</frame>
+    <frame index="22">images\Collect_Spr_22.png</frame>
+    <frame index="23">images\Collect_Spr_23.png</frame>
+    <frame index="24">images\Collect_Spr_24.png</frame>
+    <frame index="25">images\Collect_Spr_25.png</frame>
+    <frame index="26">images\Collect_Spr_26.png</frame>
+    <frame index="27">images\Collect_Spr_27.png</frame>
+    <frame index="28">images\Collect_Spr_28.png</frame>
+    <frame index="29">images\Collect_Spr_29.png</frame>
+    <frame index="30">images\Collect_Spr_30.png</frame>
+    <frame index="31">images\Collect_Spr_31.png</frame>
+    <frame index="32">images\Collect_Spr_32.png</frame>
+    <frame index="33">images\Collect_Spr_33.png</frame>
+    <frame index="34">images\Collect_Spr_34.png</frame>
+    <frame index="35">images\Collect_Spr_35.png</frame>
+    <frame index="36">images\Collect_Spr_36.png</frame>
+    <frame index="37">images\Collect_Spr_37.png</frame>
+    <frame index="38">images\Collect_Spr_38.png</frame>
+    <frame index="39">images\Collect_Spr_39.png</frame>
+    <frame index="40">images\Collect_Spr_40.png</frame>
+    <frame index="41">images\Collect_Spr_41.png</frame>
+    <frame index="42">images\Collect_Spr_42.png</frame>
+    <frame index="43">images\Collect_Spr_43.png</frame>
+    <frame index="44">images\Collect_Spr_44.png</frame>
+    <frame index="45">images\Collect_Spr_45.png</frame>
+    <frame index="46">images\Collect_Spr_46.png</frame>
+    <frame index="47">images\Collect_Spr_47.png</frame>
   </frames>
 </sprite>

@@ -105,6 +105,10 @@ else
           <argument>
             <kind>1</kind>
             <string>global.timeRem = alarm[0];
+if(global.timeRem == 60)
+{
+    audio_play_sound(Warning_Snd,1,false);
+}
 if(global.collectibles == 24)
 {
     room_goto(room3);
@@ -131,7 +135,8 @@ if(global.collectibles == 24)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(50,30,"Time Remaining: " + string(global.timeRem));
+            <string>draw_set_font(FreshBot_Fnt);
+draw_text(50,30,"Time Remaining: " + string(global.timeRem));
 draw_text(50,50,"Lives: " + string(global.Lives));
 draw_text(50,70,"Collected: " + string(global.collectibles));
 </string>
