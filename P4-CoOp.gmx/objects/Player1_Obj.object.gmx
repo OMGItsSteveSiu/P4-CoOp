@@ -238,8 +238,8 @@ else
             <kind>1</kind>
             <string>jumping = 0;
 speed = 0;
-self.x = self.x;
-self.y = self.y;
+self.x = self.xprevious;
+self.y = self.yprevious;
 </string>
           </argument>
         </arguments>
@@ -262,7 +262,10 @@ self.y = self.y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = 0;
+            <string>jumping = 0;
+speed = 0;
+self.x = self.xprevious;
+self.y = self.yprevious;
 </string>
           </argument>
         </arguments>
@@ -314,7 +317,10 @@ if(!(keyboard_check(vk_left) || keyboard_check(vk_right)))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = 0;
+            <string>jumping = 0;
+speed = 0;
+self.x = self.xprevious;
+self.y = self.yprevious;
 </string>
           </argument>
         </arguments>
@@ -337,7 +343,10 @@ if(!(keyboard_check(vk_left) || keyboard_check(vk_right)))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = 0;
+            <string>jumping = 0;
+speed = 0;
+self.x = self.xprevious;
+self.y = self.yprevious;
 </string>
           </argument>
         </arguments>

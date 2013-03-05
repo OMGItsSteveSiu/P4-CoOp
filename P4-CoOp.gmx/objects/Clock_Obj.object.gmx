@@ -80,7 +80,7 @@ global.timeRem = alarm[0];
 }
 else
 {
-    room_goto(room1);
+    room_goto(room2);
 }
 </string>
           </argument>
@@ -107,7 +107,7 @@ else
             <string>global.timeRem = alarm[0];
 if(global.collectibles == 24)
 {
-    room_goto(room2);
+    room_goto(room3);
 }
 </string>
           </argument>
