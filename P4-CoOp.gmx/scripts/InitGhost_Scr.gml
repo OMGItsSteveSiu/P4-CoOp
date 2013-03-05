@@ -4,4 +4,4 @@ do{
     ghostX[i] = 32;
     ghostY[i] = 16;
     i ++;
-} until (i == (501));
+} until (i == (401));

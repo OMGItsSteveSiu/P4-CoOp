@@ -20,6 +20,9 @@
     <sprite>sprites\TriKey_Spr</sprite>
     <sprite>sprites\TryAgain_Spr</sprite>
     <sprite>sprites\Wall_Spr</sprite>
+    <sprite>sprites\YouFail_Spr</sprite>
+    <sprite>sprites\YouWin_Spr</sprite>
+    <sprite>sprites\Background_Spr</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -51,6 +54,9 @@
     <object>objects\TriKey_Obj</object>
     <object>objects\TryAgain_Obj</object>
     <object>objects\Wall_Obj</object>
+    <object>objects\YouFail_Obj</object>
+    <object>objects\YouWin_Obj</object>
+    <object>objects\Background_Obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.gameTime = 250
+            <string>global.gameTime = 400
 global.Lives = 10;
 alarm[0] = global.gameTime;
 global.timeRem = alarm[0];
