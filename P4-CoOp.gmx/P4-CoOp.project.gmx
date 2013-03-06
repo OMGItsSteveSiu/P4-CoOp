@@ -62,6 +62,7 @@
     <object>objects\DiaKey_Obj</object>
     <object>objects\FinalScore_Obj</object>
     <object>objects\Floor_Obj</object>
+    <object>objects\FloorEdge_Obj</object>
     <object>objects\Ghost2_Obj</object>
     <object>objects\Ghost3_Obj</object>
     <object>objects\Ghost4_Obj</object>
@@ -87,6 +88,7 @@
     <object>objects\StartScreen_System</object>
     <object>objects\CirKeyIns_Obj</object>
     <object>objects\TriKeyIns_Obj</object>
+    <object>objects\CollectIns_Obj</object>
     <object>objects\DiaKeyIns_Obj</object>
   </objects>
   <rooms name="rooms">
