@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(place_meeting(x,y, Player1_Obj))
+            <string>if((place_meeting(x,y, Player1_Obj))||(place_meeting(x,y, Player2_Obj)))
 {
     if(visible)
     {
@@ -35,7 +35,7 @@
     }
 }
 
-if(place_meeting(x,y, Ghost2_Obj))
+if((place_meeting(x,y, Ghost1_02_Obj))||(place_meeting(x,y, Ghost2_02_Obj)))
 {
     if(visible)
     {
@@ -45,7 +45,7 @@ if(place_meeting(x,y, Ghost2_Obj))
     }
 }
 
-if(place_meeting(x,y, Ghost3_Obj))
+if((place_meeting(x,y, Ghost1_03_Obj))||(place_meeting(x,y, Ghost2_03_Obj)))
 {
     if(visible)
     {
@@ -55,7 +55,7 @@ if(place_meeting(x,y, Ghost3_Obj))
     }
 }
 
-if(place_meeting(x,y, Ghost4_Obj))
+if((place_meeting(x,y, Ghost1_04_Obj))||(place_meeting(x,y, Ghost2_04_Obj)))
 {
     if(visible)
     {
@@ -65,7 +65,7 @@ if(place_meeting(x,y, Ghost4_Obj))
     }
 }
 
-if(place_meeting(x,y, Ghost5_Obj))
+if((place_meeting(x,y, Ghost1_05_Obj))||(place_meeting(x,y, Ghost2_05_Obj)))
 {
     if(visible)
     {
@@ -75,7 +75,7 @@ if(place_meeting(x,y, Ghost5_Obj))
     }
 }
 
-if(place_meeting(x,y, Ghost6_Obj))
+if((place_meeting(x,y, Ghost1_06_Obj))||(place_meeting(x,y, Ghost2_06_Obj)))
 {
     if(visible)
     {
@@ -85,7 +85,7 @@ if(place_meeting(x,y, Ghost6_Obj))
     }
 }
 
-if(place_meeting(x,y, Ghost7_Obj))
+if((place_meeting(x,y, Ghost1_07_Obj))||(place_meeting(x,y, Ghost2_07_Obj)))
 {
     if(visible)
     {
@@ -95,7 +95,7 @@ if(place_meeting(x,y, Ghost7_Obj))
     }
 }
 
-if(place_meeting(x,y, Ghost8_Obj))
+if((place_meeting(x,y, Ghost1_08_Obj))||(place_meeting(x,y, Ghost2_08_Obj)))
 {
     if(visible)
     {
@@ -105,7 +105,7 @@ if(place_meeting(x,y, Ghost8_Obj))
     }
 }
 
-if(place_meeting(x,y, Ghost9_Obj))
+if((place_meeting(x,y, Ghost1_09_Obj))||(place_meeting(x,y, Ghost2_09_Obj)))
 {
     if(visible)
     {
@@ -115,7 +115,7 @@ if(place_meeting(x,y, Ghost9_Obj))
     }
 }
 
-if(place_meeting(x,y, Ghost10_Obj))
+if((place_meeting(x,y, Ghost1_10_Obj))||(place_meeting(x,y, Ghost2_10_Obj)))
 {
     if(visible)
     {
