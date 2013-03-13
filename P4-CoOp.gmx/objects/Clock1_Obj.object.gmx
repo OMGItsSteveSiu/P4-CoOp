@@ -31,6 +31,7 @@ alarm[0] = global.gameTime;
 global.timeRem = alarm[0];
 global.collectibles = 0;
 global.roomCameFrom = room;
+global.roomNext = room2;
 </string>
           </argument>
         </arguments>
@@ -88,7 +89,7 @@ global.roomCameFrom = room;
 }
 else
 {
-    room_goto(room4);
+    room_goto(room5);
 }
 </string>
           </argument>
@@ -119,7 +120,7 @@ if(global.timeRem == 60)
 }
 if(global.collectibles == 28)
 {
-    room_goto(room2);
+    room_goto(room4);
 }
 </string>
           </argument>

@@ -3,4 +3,5 @@ Grab the Keys to open corresponding doors (Circle, Triangle, Diamond)
 
 When you hear the warning sound, your life is almost up. Get ready to run through the game again!
 
-Use arrowkeys to move
+Player 1: Use arrowkeys to move
+Player 2: Use WASD to move

@@ -33,6 +33,7 @@
     <sprite>sprites\Instructions_Spr</sprite>
     <sprite>sprites\Ladder_Spr</sprite>
     <sprite>sprites\Play_Spr</sprite>
+    <sprite>sprites\NextLevel_Spr</sprite>
     <sprite>sprites\PlayAgain_Spr</sprite>
     <sprite>sprites\Player1_Spr</sprite>
     <sprite>sprites\Player2_Spr</sprite>
@@ -46,6 +47,7 @@
     <sprite>sprites\Wall_Spr</sprite>
     <sprite>sprites\YouFail_Spr</sprite>
     <sprite>sprites\YouWin_Spr</sprite>
+    <sprite>sprites\LevelComplete_Spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Matrix_Bg</background>
@@ -110,6 +112,7 @@
     <object>objects\Ladder_Obj</object>
     <object>objects\Music_Obj</object>
     <object>objects\Play_Obj</object>
+    <object>objects\NextLevel_Obj</object>
     <object>objects\PlayAgain_Obj</object>
     <object>objects\Player1_Obj</object>
     <object>objects\Player1Ins_Obj</object>
@@ -128,6 +131,7 @@
     <object>objects\Wall_Obj</object>
     <object>objects\YouFail_Obj</object>
     <object>objects\YouWin_Obj</object>
+    <object>objects\LevelComplete_Obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
@@ -136,6 +140,7 @@
     <room>rooms\room3</room>
     <room>rooms\room4</room>
     <room>rooms\room5</room>
+    <room>rooms\room6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

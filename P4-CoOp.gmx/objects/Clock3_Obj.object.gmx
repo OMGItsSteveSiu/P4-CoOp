@@ -26,11 +26,12 @@
           <argument>
             <kind>1</kind>
             <string>global.gameTime = 400
-global.Lives = 10;
+global.Lives = 7;
 alarm[0] = global.gameTime;
 global.timeRem = alarm[0];
 global.collectibles = 0;
 global.roomCameFrom = room;
+global.roomNext = room4;
 </string>
           </argument>
         </arguments>
@@ -96,7 +97,7 @@ global.roomCameFrom = room;
 }
 else
 {
-    room_goto(room4);
+    room_goto(room5);
 }
 </string>
           </argument>
@@ -127,7 +128,7 @@ if(global.timeRem == 60)
 }
 if(global.collectibles == 31)
 {
-    room_goto(room5);
+    room_goto(room6);
 }
 </string>
           </argument>

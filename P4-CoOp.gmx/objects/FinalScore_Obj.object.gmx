@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>//draw_set_font(FreshBot_Fnt);
-draw_text(448,576,"You Finished The Game With " + string(global.Lives) + " Lives!");
+draw_text(448,576,"You Finished The Level With " + string(global.Lives) + " Lives!");
 </string>
           </argument>
         </arguments>
